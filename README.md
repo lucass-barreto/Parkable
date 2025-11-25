@@ -2,6 +2,10 @@
 
 ![Java](https://img.shields.io/badge/Java-21-blue?logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.5-green?logo=spring&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)# Parkable - Sistema de Gerenciamento de Estacionamento
+
+![Java](https://img.shields.io/badge/Java-21-blue?logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.5-green?logo=spring&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-4.0-red?logo=apachemaven&logoColor=white)
 ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-3.1-green?logo=thymeleaf&logoColor=white)
@@ -48,6 +52,22 @@ O backend foi construído seguindo as melhores práticas de design de APIs REST,
 -   [x] **Cálculo Automático de Preço:** Lógica de negócio que calcula o valor a ser pago com base no tempo de permanência.
 -   [x] **Histórico de Operações:** Tabela com o histórico de todos os veículos que já saíram, ordenada dos mais recentes para os mais antigos.
 
+## 📋 Documentação da API
+
+A API REST está totalmente documentada com **Swagger/OpenAPI**, proporcionando uma interface interativa para explorar e testar todos os endpoints disponíveis.
+
+### 🔗 Acessando a Documentação
+Após iniciar a aplicação, a documentação estará disponível em:
+* **Swagger UI:** [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+* **OpenAPI Spec (JSON):** [http://localhost:8080/v3/api-docs](http://localhost:8080/v3/api-docs)
+
+### 📖 O que você encontrará na documentação:
+- **Endpoints Completos:** Todos os endpoints da API com descrições detalhadas
+- **Modelos de Dados:** Estrutura dos DTOs de requisição e resposta
+- **Códigos de Status:** Todos os possíveis códigos de retorno HTTP
+- **Exemplos de Uso:** Exemplos práticos de requisições e respostas
+- **Interface Interativa:** Teste os endpoints diretamente pelo navegador
+
 ## 💪 Desafios Superados
 
 Durante o desenvolvimento, vários desafios foram superados, servindo como grandes pontos de aprendizado:
@@ -68,6 +88,8 @@ Durante o desenvolvimento, vários desafios foram superados, servindo como grand
     -   Thymeleaf
     -   HTML5
     -   CSS3
+-   **Documentação:**
+    -   Swagger/OpenAPI 3
 -   **Banco de Dados:**
     -   H2 Database (In-Memory & File-based)
 -   **Build & Dependências:**
@@ -104,13 +126,14 @@ Esta é a forma mais simples e rápida de executar o projeto, pois todo o ambien
 5.  **Acesse a Aplicação:**
     Após alguns instantes, a aplicação estará disponível no seu navegador:
     * **Interface Web (Dashboard):** [http://localhost:8080/ui/dashboard](http://localhost:8080/ui/dashboard)
+    * **Documentação da API (Swagger):** [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
 
 ### 🐋 Imagem no Docker Hub
 Uma imagem pré-construída desta aplicação está disponível publicamente no Docker Hub. Você pode baixá-la diretamente com o comando:
-    ```bash
-    docker pull lucassbarreto/parkable-app:latest
-    ```
+```bash
+docker pull lucassbarreto/parkable-app:latest
+```
 **Para mais detalhes, visite o repositório no [Docker Hub](https://hub.docker.com/r/lucassbarreto/parkable-app).**
 
 ## 📫 Contato
