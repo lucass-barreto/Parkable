@@ -91,11 +91,13 @@ Durante o desenvolvimento, vários desafios foram superados, servindo como grand
 -   **Documentação:**
     -   Swagger/OpenAPI 3
 -   **Banco de Dados:**
-    -   H2 Database (In-Memory & File-based)
+    -   PostgreSQL
 -   **Build & Dependências:**
     -   Apache Maven
     -   Lombok
     -   MapStruct
+-   **DevOps:**
+    -   Docker
 
 ## ⚙️ Instalação e Uso
 
