@@ -2,13 +2,10 @@
 
 ![Java](https://img.shields.io/badge/Java-21-blue?logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.5-green?logo=spring&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)# Parkable - Sistema de Gerenciamento de Estacionamento
-
-![Java](https://img.shields.io/badge/Java-21-blue?logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.5-green?logo=spring&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-4.0-red?logo=apachemaven&logoColor=white)
 ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-3.1-green?logo=thymeleaf&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=black)
 
 Aplicação web full-stack para gerenciamento de um estacionamento, desenvolvida como um projeto de estudo para demonstrar habilidades no ecossistema Java e Spring. O projeto conta com uma API REST completa para todas as operações e um dashboard web interativo para visualização e controle em tempo real.
 
@@ -91,13 +88,11 @@ Durante o desenvolvimento, vários desafios foram superados, servindo como grand
 -   **Documentação:**
     -   Swagger/OpenAPI 3
 -   **Banco de Dados:**
-    -   PostgreSQL
+    -   H2 Database (In-Memory & File-based)
 -   **Build & Dependências:**
     -   Apache Maven
     -   Lombok
     -   MapStruct
--   **DevOps:**
-    -   Docker
 
 ## ⚙️ Instalação e Uso
 
